@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #6190e8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.snake-board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 330px;
+  height: 330px;
+  background-color: aliceblue;
+}
+
+.snake-board-box {
+  border: 1px solid rgb(137, 137, 137);
+  width: 33px;
+  height: 33px;
+  box-sizing: border-box;
+}
+
+.snake-body {
+  background: #0575e6; /* fallback for old browsers */
+  border-radius: 7px;
+}
+
+.snake-head {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0575e6,
+    #021b79
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0575e6,
+    #021b79
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 7px;
+}
